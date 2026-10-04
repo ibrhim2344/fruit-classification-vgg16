@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.DS_Store
+Thumbs.db
+data/raw/
+*.zip
+*.part
+*.keras
+*.h5
+*.hdf5
+models/run*/
+.pytest_cache/

@@ -1,0 +1,9 @@
+# Target environment: Python 3.12. Validate with: python -m pip check
+# Pinned from the original notebook, with explicit Keras/Pillow dependencies.
+tensorflow==2.16.2
+keras==3.3.3
+numpy==1.26.4
+matplotlib==3.9.2
+scipy==1.14.1
+scikit-learn==1.5.2
+Pillow==10.4.0

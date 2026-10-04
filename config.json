@@ -1,0 +1,23 @@
+{
+  "dataset_url": "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/4yIRGlIpNfKEGJYMhZV52g/fruits-360-original-size.zip",
+  "dataset_sha256": null,
+  "data_dir": "data/raw",
+  "output_dir": "models/run_vgg16",
+  "reports_dir": "reports",
+  "image_size": [
+    64,
+    64
+  ],
+  "batch_size": 16,
+  "seed": 42,
+  "head_epochs": 5,
+  "fine_tune_epochs": 5,
+  "head_learning_rate": 0.001,
+  "fine_tune_learning_rate": 1e-05,
+  "fine_tune_block": "block5",
+  "dense_units": 256,
+  "dropout": 0.3,
+  "early_stopping_patience": 5,
+  "reduce_lr_patience": 2,
+  "weights": "imagenet"
+}
